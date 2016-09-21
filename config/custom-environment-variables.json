@@ -1,0 +1,41 @@
+{
+  "port": "PORT",
+  
+  "corbel": {
+      "credentials": {
+        "clientId": "CREDENTIALS_CLIENT_ID",
+        "clientSecret": "CREDENTIALS_CLIENT_SECRET",
+        "scopes": "CREDENTIALS_SCOPES",
+        "domain": "CREDENTIALS_DOMAIN",
+        "username": "CREDENTIALS_USERNAME",
+        "userpassword": "CREDENTIALS_USERPASSWORD",
+        "userscopes": "CREDENTIALS_USERSCOPES"
+      },
+      "options": {
+          "urlBase": "URL_BASE"
+      }
+  },
+
+  "redis": {
+      "host": "REDIS_HOST",
+      "port": "REDIS_PORT",
+      "user": "REDIS_USER",
+      "password": "REDIS_PASSWORD",
+      "db": "REDIS_DB"
+  },
+
+  "rabbitmq": {
+      "host": "RABBITMQ_HOST",
+      "port": "RABBITMQ_PORT",
+      "username": "RABBITMQ_USERNAME",
+      "password": "RABBITMQ_PASSWORD",
+      "forceconnect": "RABBITMQ_FORCE_CONNECT"
+  },
+
+  "mongo": {
+    "host": "MONGO_HOST",
+    "user": "MONGO_USER",
+    "password": "MONGO_PASSWORD"
+  }
+
+}

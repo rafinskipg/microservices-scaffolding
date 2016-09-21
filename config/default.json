@@ -1,0 +1,47 @@
+{
+
+  "port" : 8080,
+  "name" : "microservice_ebooks", 
+
+  "corbel": {
+      "credentials": {
+        "clientId": "xxx",
+        "clientSecret": "xx",
+        "scopes": "xx",
+        "domain": "xx",
+        "username": "a@bq.com",
+        "userpassword": "xx",
+        "userscopes": "iam:user"
+      },
+      "options": {
+          "urlBase": "https://proxy-qa.bqws.io/{{module}}/v1.0/"
+      }
+  },
+
+  "redis": {
+      "host": "localhost",
+      "port": 6379,
+      "user": "",
+      "password": "",
+      "db": ""
+  },
+
+  "rabbitmq": {
+      "host": "qa-silkroad-app.dev.aws.bqreaders.local",
+      "port": "5672",
+      "username": "guest",
+      "password": "guest",
+      "reconntimeout": 10000,
+      "event": "class com.bq.corbel.event.ResourceEvent",
+      "forceconnect": false,
+      "heartbeat" : 30,
+      "uri" : "amqp://seneca:seneca@qa-silkroad-app.dev.aws.bqreaders.local:5672"
+  },
+
+  "mongo": {
+    "host": "localhost:3000",
+    "user": "admin",
+    "password": ""
+  }
+
+}
